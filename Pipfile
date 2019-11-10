@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+click = "*"
+clickclick = "*"
+keyring = "*"
+requests = "*"
+python-dateutil = "*"
+
+[dev-packages]
+flake8 = "*"
+yapf = "*"
+
+[requires]
+python_version = "3.6"
